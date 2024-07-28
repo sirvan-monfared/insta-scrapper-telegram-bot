@@ -1,0 +1,28 @@
+{
+    "name": "dev/php-tutorial",
+    "authors": [
+        {
+            "name": "sirvan monfared - www.laraplus.ir",
+            "email": "dev@laraplus.ir"
+        }
+    ],
+    "require": {
+        "illuminate/collections": "^10.48",
+        "nesbot/carbon": "^3.2",
+        "ext-pdo": "*",
+        "ext-curl": "*",
+        "symfony/var-dumper": "^6.4",
+        "morilog/jalali": "3.*",
+        "vlucas/phpdotenv": "^5.6",
+        "eleirbag89/telegrambotphp": "^1.4",
+        "intervention/image": "^3.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "App/"
+        },
+        "files": [
+            "functions.php"
+        ]
+    }
+}
